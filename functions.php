@@ -136,7 +136,9 @@ add_action( 'widgets_init', 'wp_apis_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
+ * test
  */
+
 function wp_apis_scripts() {
 	wp_enqueue_style( 'wp-apis-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'wp-apis-style', 'rtl', 'replace' );
